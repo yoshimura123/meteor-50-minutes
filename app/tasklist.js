@@ -22,6 +22,7 @@ if (Meteor.isClient) {
         Meteor.call('deleteTask', this._id);
       }
       return false;
+
     }
   })
 }
